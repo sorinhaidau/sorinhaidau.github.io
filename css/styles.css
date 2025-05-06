@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    padding: 120px 0 10px;
+    padding: 3dvh 0 10px;
     text-align: center;
     border-bottom: 1px solid #444;
 }
@@ -21,6 +21,7 @@ main {
 }
 
 footer {
+    background-color: #010101;
     text-align: center;
     padding: 10px 0;
     position: fixed;
