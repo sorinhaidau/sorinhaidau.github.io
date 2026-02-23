@@ -11,7 +11,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-family: Arial, sans-serif;
-    background: #003049;
+    background: #1c1c1c;
 
     --easing: linear(
         0, 1.42406 3.67%, 1.65745 4.64%, 1.71709 5.111%, 1.74059 5.591%,
@@ -34,6 +34,8 @@ body {
 header {
     padding: 3dvh 0 10px;
     text-align: center;
+    display: grid;
+    place-content: center;
     border-bottom: 1px solid #444;
 
     ul li a {
@@ -88,6 +90,9 @@ header {
       text-transform: uppercase;
       color: inherit;
       padding-block: .2em;
+      &:hover {
+        text-decoration: none;
+      }
     }
 }
 
